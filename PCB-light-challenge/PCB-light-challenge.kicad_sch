@@ -8,14 +8,31 @@
   )
 
 
-  (sheet (at 201.93 78.74) (size 38.1 30.48) (fields_autoplaced)
+  (sheet (at 38.1 25.4) (size 38.1 34.29) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1402e616-5a05-4555-8060-97317c02dff7)
+    (property "Sheetname" "LEDS" (at 38.1 24.6884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LEDS.kicad_sch" (at 38.1 60.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 200.66 76.2) (size 38.1 30.48) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 1ee2b17a-9b36-4608-9d61-b871128bc979)
-    (property "Sheetname" "Battery_charger" (at 201.93 78.0284 0)
+    (property "Sheetname" "Battery_charger" (at 200.66 75.4884 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "Battery_charger.kicad_sch" (at 201.93 109.8046 0)
+    (property "Sheetfile" "Battery_charger.kicad_sch" (at 200.66 107.2646 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -38,6 +55,91 @@
     (instances
       (project "PCB-light-challenge"
         (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 115.57) (size 40.64 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 402f4479-2d09-4573-9065-1b936cf39822)
+    (property "Sheetname" "Light_sensor" (at 38.1 114.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Light_sensor.kicad_sch" (at 38.1 137.7446 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 200.66 115.57) (size 35.56 24.13) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4913eaec-b49a-460c-b529-7512bf4c7785)
+    (property "Sheetname" "USB" (at 200.66 114.8584 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB.kicad_sch" (at 200.66 140.2846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 76.2) (size 39.37 26.67) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5679ea21-1e58-482d-afee-07308fc996bf)
+    (property "Sheetname" "PIR_Sensor" (at 38.1 75.4884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "PIR.kicad_sch" (at 38.1 103.4546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 200.66 40.64) (size 36.83 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 91ce53e5-ea08-4091-9289-d2f38a19ddbc)
+    (property "Sheetname" "BMS" (at 200.66 39.9284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "BMS.kicad_sch" (at 200.66 69.1646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 38.1 146.05) (size 40.64 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid e45bfeb5-7d32-4b1e-b5db-04fb02e3e836)
+    (property "Sheetname" "Force_sensor" (at 38.1 145.3384 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Force.kicad_sch" (at 38.1 169.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "9"))
       )
     )
   )

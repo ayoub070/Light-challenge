@@ -334,6 +334,30 @@
     [
       "2e4391fc-91c5-40c6-9f1e-d883ea305622",
       "Micro_controllor"
+    ],
+    [
+      "91ce53e5-ea08-4091-9289-d2f38a19ddbc",
+      "BMS"
+    ],
+    [
+      "4913eaec-b49a-460c-b529-7512bf4c7785",
+      "USB"
+    ],
+    [
+      "1402e616-5a05-4555-8060-97317c02dff7",
+      "LEDS"
+    ],
+    [
+      "5679ea21-1e58-482d-afee-07308fc996bf",
+      "PIR_Sensor"
+    ],
+    [
+      "402f4479-2d09-4573-9065-1b936cf39822",
+      "Light_sensor"
+    ],
+    [
+      "e45bfeb5-7d32-4b1e-b5db-04fb02e3e836",
+      "Force_sensor"
     ]
   ],
   "text_variables": {}
