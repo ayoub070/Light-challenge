@@ -326,6 +326,14 @@
     [
       "35573e8f-7834-430c-81d2-239f316c7834",
       ""
+    ],
+    [
+      "1ee2b17a-9b36-4608-9d61-b871128bc979",
+      "Battery_charger"
+    ],
+    [
+      "2e4391fc-91c5-40c6-9f1e-d883ea305622",
+      "Micro_controllor"
     ]
   ],
   "text_variables": {}
