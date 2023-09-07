@@ -76,23 +76,6 @@
     )
   )
 
-  (sheet (at 200.66 115.57) (size 35.56 24.13) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 4913eaec-b49a-460c-b529-7512bf4c7785)
-    (property "Sheetname" "USB" (at 200.66 114.8584 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "USB.kicad_sch" (at 200.66 140.2846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PCB-light-challenge"
-        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "5"))
-      )
-    )
-  )
-
   (sheet (at 38.1 76.2) (size 39.37 26.67) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
