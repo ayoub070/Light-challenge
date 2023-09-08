@@ -573,9 +573,9 @@
     (property "Datasheet" "https://www.farnell.com/datasheets/3103815.pdf" (at 135.89 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid 449aca0c-39be-40a7-89fe-b942ea1e1e49))
     (pin "2" (uuid 91ce5f49-8b83-402a-9242-917a0673a139))
     (pin "3" (uuid 50ffc824-fd01-49d3-9b8c-18cd69d02f45))
-    (pin "1" (uuid 449aca0c-39be-40a7-89fe-b942ea1e1e49))
     (instances
       (project "BatterySystem"
         (path "/087df5f5-f8bd-4aad-837d-9ee553cf1b81/a03965c6-cfc0-427e-8817-8deee22f0563"
