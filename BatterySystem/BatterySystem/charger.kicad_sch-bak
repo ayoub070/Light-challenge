@@ -1201,8 +1201,8 @@
     (property "Datasheet" "~" (at 157.48 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a8f51252-ec56-4909-a696-cbacc0257566))
-    (pin "2" (uuid e196c8b1-b294-4d43-82e3-81777da29e80))
+    (pin "1" (uuid 038158f8-42b1-4777-9e6f-178da87ad051))
+    (pin "2" (uuid 740140a2-3fec-44e6-8477-e686eabee8fc))
     (instances
       (project "BatterySystem"
         (path "/087df5f5-f8bd-4aad-837d-9ee553cf1b81/c2cf6bc5-c7a7-4536-bd5f-b8479578647d"
@@ -1557,8 +1557,8 @@
     (property "Datasheet" "~" (at 133.35 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e9193813-5977-4a26-942d-bf271c7659c2))
-    (pin "2" (uuid e6c8bf3f-d844-48ce-9c87-d9ad694d959e))
+    (pin "1" (uuid a2f739a1-fe95-421f-b8fd-d0f98acb981f))
+    (pin "2" (uuid dfdd262a-9b77-4787-8369-dc9f3b97b751))
     (instances
       (project "BatterySystem"
         (path "/087df5f5-f8bd-4aad-837d-9ee553cf1b81/c2cf6bc5-c7a7-4536-bd5f-b8479578647d"

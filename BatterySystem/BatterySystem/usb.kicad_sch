@@ -187,9 +187,9 @@
     (property "Datasheet" "" (at 91.44 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "1" (uuid cc1ace17-1bd3-4f06-8726-3f7fe0953454))
     (pin "2" (uuid 4905ec8a-4b9f-44f9-8cce-e73b537c1068))
     (pin "3" (uuid 0659cd0d-76be-4fc3-82b9-3adae624d76c))
-    (pin "1" (uuid cc1ace17-1bd3-4f06-8726-3f7fe0953454))
     (pin "4" (uuid 86659bcf-4d08-49f1-b00e-bcc47481d2bf))
     (instances
       (project "BatterySystem"
