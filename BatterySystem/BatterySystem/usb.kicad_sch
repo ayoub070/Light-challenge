@@ -187,10 +187,10 @@
     (property "Datasheet" "" (at 91.44 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 85771889-0917-4d38-9a88-0fac492fbc48))
-    (pin "" (uuid 85771889-0917-4d38-9a88-0fac492fbc48))
-    (pin "" (uuid 85771889-0917-4d38-9a88-0fac492fbc48))
-    (pin "" (uuid 85771889-0917-4d38-9a88-0fac492fbc48))
+    (pin "" (uuid 85771889-0917-4d38-9a88-0fac492fbc4b))
+    (pin "" (uuid 85771889-0917-4d38-9a88-0fac492fbc4b))
+    (pin "" (uuid 85771889-0917-4d38-9a88-0fac492fbc4b))
+    (pin "" (uuid 85771889-0917-4d38-9a88-0fac492fbc4b))
     (instances
       (project "BatterySystem"
         (path "/087df5f5-f8bd-4aad-837d-9ee553cf1b81/c2cf6bc5-c7a7-4536-bd5f-b8479578647d"

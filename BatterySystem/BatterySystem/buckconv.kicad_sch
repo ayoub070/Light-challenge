@@ -395,10 +395,10 @@
     (uuid fa424b48-1416-4627-8742-1b707896373d)
   )
 
-  (global_label "3.5-4.5V" (shape input) (at 76.2 87.63 180) (fields_autoplaced)
+  (global_label "Bat" (shape input) (at 76.2 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3a439ad0-3eb1-42e3-bea3-ea923de41d32)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 64.5856 87.63 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 70.1495 87.63 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
