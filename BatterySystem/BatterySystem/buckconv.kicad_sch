@@ -605,7 +605,7 @@
     (property "Value" "Fuse" (at 87.63 85.7791 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 87.63 89.408 90)
+    (property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Eaton_1A5601-01_Inline_P20.80x6.76mm_D1.70mm_Horizontal" (at 87.63 89.408 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 87.63 87.63 0)
