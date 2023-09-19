@@ -39,11 +39,12 @@ void setup() {
 }
 
 void loop() {
- // Turn the LED on, then pause
-  //leds[0] = CRGB::Blue;
- // leds[1] = CRGB::Blue;
- // leds[2] = CRGB::Blue;
-  /*leds[3] = CRGB::Red;
+ //=================== This is code for the  guidance light==============//
+  /*
+  leds[0] = CRGB::Blue;
+  leds[1] = CRGB::Blue;
+  leds[2] = CRGB::Blue;
+  leds[3] = CRGB::Red;
   leds[4] = CRGB::DarkRed;
   leds[5] = CRGB::OrangeRed;
   leds[6] = CRGB::LightGoldenrodYellow;
@@ -56,45 +57,36 @@ void loop() {
   leds[13] = CRGB::Purple;
   leds[14] = CRGB::PowderBlue;
   leds[15] = CRGB::HotPink;
-  FastLED.show();*/
-  //delay(500);
-  //Serial.println("hallo");
+  FastLED.show();
+  */
+  
 if (state==HIGH){
-    digitalWrite(LED_BUILTIN,HIGH);
+    //digitalWrite(LED_BUILTIN,HIGH);
+    leds[0] = CRGB::Blue;
+    leds[1] = CRGB::Blue;
+    leds[2] = CRGB::Blue;
     delay(5000);
     state=LOW;
-    digitalWrite(LED_BUILTIN,LOW);
+    //digitalWrite(LED_BUILTIN,LOW);
+     leds[0] = CRGB::Black;
+     leds[1] = CRGB::Black;
+     leds[2] = CRGB::Black;
     delay(5000);
     Serial.println("uit");
   }else{
     state=LOW;
   
   }
- /*if (state==HIGH) {
-    Serial.println("low");
-    state = LOW;
-    digitalWrite(LED_BUILTIN,LOW);
-  }*/
-  
-  // Now turn the LED off, then pause
- // leds[0] = CRGB::Black;
-  //FastLED.show();
- // delay(500);
-//===============Code for the PIR sesnor================//
+ 
+//=============== Interrupt code for the PIR sesnor================//
 
 
 }
 
 void pir_sens_L(){
-    //if (state==HIGH){
-        // leds[0] = CRGB::Blue;
-        // leds[1] = CRGB::Blue;
-       //  leds[2] = CRGB::Blue;
-       //digitalWrite(LED_BUILTIN,HIGH);
-       //  FastLED.show();
-       // delay(500);
+    
        state = HIGH;
-   // }
+   
     
 }
 
