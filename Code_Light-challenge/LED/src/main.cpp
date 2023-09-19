@@ -10,7 +10,7 @@
 // need to define DATA_PIN.  For led chipsets that are SPI based (four wires - data, clock,
 // ground, and power), like the LPD8806 define both DATA_PIN and CLOCK_PIN
 // Clock pin only needed for SPI based chipsets when not using hardware SPI
-#define DATA_PIN 3
+#define DATA_PIN 0
 #define CLOCK_PIN 13
 const byte PIR_sens = 4;
 const byte PIR_led  = 5;
@@ -65,12 +65,14 @@ if (state==HIGH){
     leds[0] = CRGB::Blue;
     leds[1] = CRGB::Blue;
     leds[2] = CRGB::Blue;
+    FastLED.show();
     delay(5000);
     state=LOW;
     //digitalWrite(LED_BUILTIN,LOW);
      leds[0] = CRGB::Black;
      leds[1] = CRGB::Black;
      leds[2] = CRGB::Black;
+     FastLED.show();
     delay(5000);
     Serial.println("uit");
   }else{
