@@ -58,13 +58,17 @@ void loop() {
   leds[15] = CRGB::HotPink;
   FastLED.show();*/
   //delay(500);
-  Serial.println("hallo");
+  //Serial.println("hallo");
 if (state==HIGH){
     digitalWrite(LED_BUILTIN,HIGH);
     delay(5000);
     state=LOW;
     digitalWrite(LED_BUILTIN,LOW);
     delay(5000);
+    Serial.println("uit");
+  }else{
+    state=LOW;
+  
   }
  /*if (state==HIGH) {
     Serial.println("low");
@@ -90,7 +94,6 @@ void pir_sens_L(){
        //  FastLED.show();
        // delay(500);
        state = HIGH;
-        Serial.println("aan");
    // }
     
 }
