@@ -58,10 +58,19 @@ void loop() {
   leds[15] = CRGB::HotPink;
   FastLED.show();*/
   //delay(500);
-leds[0] = CRGB::Black;
-leds[1] = CRGB::Black;
-leds[2] = CRGB::Black;
-FastLED.show();
+  Serial.println("hallo");
+if (state==HIGH){
+    digitalWrite(LED_BUILTIN,HIGH);
+    delay(5000);
+    state=LOW;
+    digitalWrite(LED_BUILTIN,LOW);
+    delay(5000);
+  }
+ /*if (state==HIGH) {
+    Serial.println("low");
+    state = LOW;
+    digitalWrite(LED_BUILTIN,LOW);
+  }*/
   
   // Now turn the LED off, then pause
  // leds[0] = CRGB::Black;
@@ -77,9 +86,10 @@ void pir_sens_L(){
         // leds[0] = CRGB::Blue;
         // leds[1] = CRGB::Blue;
        //  leds[2] = CRGB::Blue;
-       digitalWrite(LED_BUILTIN,HIGH);
+       //digitalWrite(LED_BUILTIN,HIGH);
        //  FastLED.show();
-        delay(500);
+       // delay(500);
+       state = HIGH;
         Serial.println("aan");
    // }
     
