@@ -59,7 +59,7 @@ void loop() {
   leds[15] = CRGB::HotPink;
   FastLED.show();
   */
-  
+  //======================================================================//
 if (state==HIGH){
     //digitalWrite(LED_BUILTIN,HIGH);
     leds[0] = CRGB::Blue;
