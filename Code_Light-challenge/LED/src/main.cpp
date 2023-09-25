@@ -24,8 +24,7 @@ volatile byte state   = LOW;
 
 // Define the array of leds
 CRGB leds[NUM_LEDS];
-
-//void pir_sens_L(); // declare the interrupt function
+// Define the the function for viberation interrupt
 void VIB_sens();
 
 void setup() {
@@ -65,11 +64,13 @@ void loop() {
   FastLED.show();
   */
   //======================================================================//
-  if(state==HIGH){
+
+  if(state==HIGH){  // Als er trilling of vibratie gedecteerd wordt zal er een delay van 5 sec. plaats vinden.
     delay(5000);
     state=LOW;
   }
-  else if (digitalRead(PIR_sens2)==HIGH){
+  else if (digitalRead(PIR_sens2)==HIGH){  // Als PIR sens 2  een object detecteerd zal  de 2e helft van de LED strip aan gaan voor 5 sec.
+    
     leds[8] = CRGB::Blue;
     leds[9] = CRGB::Blue;
     leds[10] = CRGB::Blue;
@@ -81,7 +82,7 @@ void loop() {
     FastLED.show();
     delay(5000);
     state=LOW;
-    //digitalWrite(LED_BUILTIN,LOW);
+    
      leds[8] = CRGB::Black;
      leds[9] = CRGB::Black;
      leds[10] = CRGB::Black;
@@ -93,7 +94,8 @@ void loop() {
      FastLED.show();
     delay(0);
   }
-  else if (digitalRead(PIR_sens1)==HIGH){
+  else if (digitalRead(PIR_sens1)==HIGH){ // Als PIR sens 1  een object detecteerd zal  de 1e helft van de LED strip aan gaan voor 5 sec.
+    
     leds[0] = CRGB::Blue;
     leds[1] = CRGB::Blue;
     leds[2] = CRGB::Blue;
@@ -126,14 +128,7 @@ void loop() {
 }
 
 
-/*void pir_sens_L(){
-    
-       state = HIGH;
-   
-    
-}*/
-
-void VIB_sens(){
+void VIB_sens(){  // Interrupt voor het uit doen van alle RGB LEDs, wanneer er een trilling of vibrartie plaat vindt. 
      leds[0] = CRGB::Black; 
      leds[1] = CRGB::Black;
      leds[2] = CRGB::Black;
