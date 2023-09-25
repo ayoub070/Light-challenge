@@ -12,8 +12,10 @@
 // Clock pin only needed for SPI based chipsets when not using hardware SPI
 #define DATA_PIN 0
 #define CLOCK_PIN 13
-const byte PIR_sens = 4;
+const byte PIR_sens1 = 4;
+const byte PIR_sens2 = 8;
 const byte PIR_led  = 5;
+const byte Vibration_sens = 7;
 
 volatile byte state   = LOW;
 
@@ -23,19 +25,22 @@ volatile byte state   = LOW;
 // Define the array of leds
 CRGB leds[NUM_LEDS];
 
-void pir_sens_L(); // declare the interrupt function
+//void pir_sens_L(); // declare the interrupt function
+void VIB_sens();
 
 void setup() {
     
     Serial.begin(9600);
-    pinMode(LED_BUILTIN, OUTPUT);   //initialize Safety light as output
-    attachInterrupt(digitalPinToInterrupt(PIR_sens),pir_sens_L,RISING);
+    pinMode(PIR_sens1,INPUT);
+    pinMode(PIR_sens2,INPUT);
+    //attachInterrupt(digitalPinToInterrupt(PIR_sens),pir_sens_L,RISING);
+    attachInterrupt(digitalPinToInterrupt(Vibration_sens),VIB_sens,FALLING);
    // Uncomment/edit one of the following lines for your leds arrangement.
     // ## Clockless types ##
     FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);
     FastLED.setBrightness(50);  // setup the brightness of the leds
 
-   
+   delay(10000);
 }
 
 void loop() {
@@ -60,24 +65,43 @@ void loop() {
   FastLED.show();
   */
   //======================================================================//
-if (state==HIGH){
-    //digitalWrite(LED_BUILTIN,HIGH);
+  if(state==HIGH){
+    delay(5000);
+    state=LOW;
+  }
+  else if (digitalRead(PIR_sens2)==HIGH){
+    leds[8] = CRGB::Blue;
+    leds[9] = CRGB::Blue;
+    leds[10] = CRGB::Blue;
+    leds[11] = CRGB::Blue;
+    leds[12] = CRGB::Blue;
+    leds[13] = CRGB::Blue;
+    leds[14] = CRGB::Blue;
+    leds[15] = CRGB::Blue;
+    FastLED.show();
+    delay(5000);
+    state=LOW;
+    //digitalWrite(LED_BUILTIN,LOW);
+     leds[8] = CRGB::Black;
+     leds[9] = CRGB::Black;
+     leds[10] = CRGB::Black;
+     leds[11] = CRGB::Black;
+     leds[12] = CRGB::Black;
+     leds[13] = CRGB::Black;
+     leds[14] = CRGB::Black;
+     leds[15] = CRGB::Black;
+     FastLED.show();
+    delay(0);
+  }
+  else if (digitalRead(PIR_sens1)==HIGH){
     leds[0] = CRGB::Blue;
     leds[1] = CRGB::Blue;
     leds[2] = CRGB::Blue;
     leds[3] = CRGB::Blue;
-  //  leds[4] = CRGB::Blue;
-   // leds[5] = CRGB::Blue;
-   // leds[6] = CRGB::Blue;
-  //  leds[7] = CRGB::Blue;
-  //  leds[8] = CRGB::Blue;
-   // leds[9] = CRGB::Blue;
-   // leds[10] = CRGB::Blue;
-   // leds[11] = CRGB::Blue;
-   // leds[12] = CRGB::Blue;
-   // leds[13] = CRGB::Blue;
-   // leds[14] = CRGB::Blue;
-   // leds[15] = CRGB::Blue;
+    leds[4] = CRGB::Blue;
+    leds[5] = CRGB::Blue;
+    leds[6] = CRGB::Blue;
+    leds[7] = CRGB::Blue;
     FastLED.show();
     delay(5000);
     state=LOW;
@@ -86,36 +110,47 @@ if (state==HIGH){
      leds[1] = CRGB::Black;
      leds[2] = CRGB::Black;
      leds[3] = CRGB::Black;
-    // leds[4] = CRGB::Black;
-    // leds[5] = CRGB::Black;
-   //  leds[6] = CRGB::Black;
-   //  leds[7] = CRGB::Black;
-   //  leds[8] = CRGB::Black;
-   //  leds[9] = CRGB::Black;
-   //  leds[10] = CRGB::Black;
-    // leds[11] = CRGB::Black;
-    // leds[12] = CRGB::Black;
-   //  leds[13] = CRGB::Black;
-   //  leds[14] = CRGB::Black;
-    // leds[15] = CRGB::Black;
+     leds[4] = CRGB::Black;
+     leds[5] = CRGB::Black;
+     leds[6] = CRGB::Black;
+     leds[7] = CRGB::Black;
      FastLED.show();
     delay(0);
-    Serial.println("uit");
-  }else{
-    state=LOW;
+  
   
   }
- 
-//=============== Interrupt code for the PIR sesnor================//
+ Serial.println(digitalRead(PIR_sens1));
+//=============== Interrupt code for the Vibration sesnor================//
 
 
 }
 
-void pir_sens_L(){
+
+/*void pir_sens_L(){
     
        state = HIGH;
    
     
+}*/
+
+void VIB_sens(){
+     leds[0] = CRGB::Black; 
+     leds[1] = CRGB::Black;
+     leds[2] = CRGB::Black;
+     leds[3] = CRGB::Black;
+     leds[4] = CRGB::Black;
+     leds[5] = CRGB::Black;
+     leds[6] = CRGB::Black;
+     leds[7] = CRGB::Black;
+     leds[8] = CRGB::Black;
+     leds[9] = CRGB::Black;
+     leds[10] = CRGB::Black;
+     leds[11] = CRGB::Black;
+     leds[12] = CRGB::Black;
+     leds[13] = CRGB::Black;
+     leds[14] = CRGB::Black;
+     leds[15] = CRGB::Black;
+    FastLED.show();
+   state=HIGH;
+    
 }
-
-
