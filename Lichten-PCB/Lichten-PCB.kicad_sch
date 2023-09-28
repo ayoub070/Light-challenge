@@ -1,0 +1,59 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 1cd270d9-bf21-4eca-b51f-6d45fbba63ac)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (text "De Leds board kan maximaal 74 mm breedt zijn bij 93.5 mm lang "
+    (at 38.735 135.255 0)
+    (effects (font (size 2 2)) (justify left bottom))
+    (uuid a3c26510-4e6d-4394-ae11-7e28b8234629)
+  )
+  (text "De PCB moeten een connectie krijgen met de main board waaruit de power en data verkregen wordt.\nMaar Misschien kunnen de sensoren ook met de LED board geconnect worden. \nHet zorgt ervoor dat er minder kabels nodig zijn. \nMaar kabels zijn niet perse erg als het allemaal in de paddenstoel zit merkt de gebruiker er niet veel van.\n"
+    (at 167.005 140.97 0)
+    (effects (font (size 1.4 1.4)) (justify left bottom))
+    (uuid ba908fb7-24b9-4ee6-aae4-d535636f15f1)
+  )
+
+  (sheet (at 190.5 62.865) (size 64.77 63.5) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 6a4346f3-a793-410a-9da0-631ae995a0da)
+    (property "Sheetname" "Connectoren" (at 190.5 62.1534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Connectoren.kicad_sch" (at 190.5 126.9496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lichten-PCB"
+        (path "/1cd270d9-bf21-4eca-b51f-6d45fbba63ac" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 62.23 62.865) (size 64.77 62.23) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7c9400e7-58ba-4ce0-871f-59d540490b46)
+    (property "Sheetname" "LED's" (at 62.23 62.1534 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LED's.kicad_sch" (at 62.23 125.6796 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Lichten-PCB"
+        (path "/1cd270d9-bf21-4eca-b51f-6d45fbba63ac" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
