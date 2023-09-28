@@ -37,7 +37,7 @@ void setup() {
    // Uncomment/edit one of the following lines for your leds arrangement.
     // ## Clockless types ##
     FastLED.addLeds<NEOPIXEL, DATA_PIN>(leds, NUM_LEDS);
-    FastLED.setBrightness(50);  // setup the brightness of the leds
+    FastLED.setBrightness(254);  // setup the brightness of the leds
 
    delay(10000);
 }
@@ -71,14 +71,14 @@ void loop() {
   }
   else if (digitalRead(PIR_sens2)==HIGH){  // Als PIR sens 2  een object detecteerd zal  de 2e helft van de LED strip aan gaan voor 5 sec.
     
-    leds[8] = CRGB::Blue;
-    leds[9] = CRGB::Blue;
-    leds[10] = CRGB::Blue;
-    leds[11] = CRGB::Blue;
-    leds[12] = CRGB::Blue;
-    leds[13] = CRGB::Blue;
-    leds[14] = CRGB::Blue;
-    leds[15] = CRGB::Blue;
+    leds[8] = CRGB::Red;
+    leds[9] = CRGB::Red;
+    leds[10] = CRGB::Red;
+    leds[11] = CRGB::Red;
+    leds[12] = CRGB::Red;
+    leds[13] = CRGB::Red;
+    leds[14] = CRGB::Red;
+    leds[15] = CRGB::Red;
     FastLED.show();
     delay(5000);
     state=LOW;
@@ -96,14 +96,15 @@ void loop() {
   }
   else if (digitalRead(PIR_sens1)==HIGH){ // Als PIR sens 1  een object detecteerd zal  de 1e helft van de LED strip aan gaan voor 5 sec.
     
-    leds[0] = CRGB::Blue;
-    leds[1] = CRGB::Blue;
-    leds[2] = CRGB::Blue;
-    leds[3] = CRGB::Blue;
-    leds[4] = CRGB::Blue;
-    leds[5] = CRGB::Blue;
-    leds[6] = CRGB::Blue;
-    leds[7] = CRGB::Blue;
+    leds[0] = CRGB::Red;
+    leds[1] = CRGB::Red;
+    leds[1] = CRGB::Red;
+    leds[2] = CRGB::Red;
+    leds[3] = CRGB::Red;
+    leds[4] = CRGB::Red;
+    leds[5] = CRGB::Red;
+    leds[6] = CRGB::Red;
+    leds[7] = CRGB::Red;
     FastLED.show();
     delay(5000);
     state=LOW;
