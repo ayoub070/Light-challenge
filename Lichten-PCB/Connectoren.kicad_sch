@@ -1,6 +1,6 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 929dc414-b594-4327-b902-d169f16494e0)
+  (uuid 6f66770f-fb85-4df2-a562-1e08d587e326)
 
   (paper "A4")
 
@@ -299,7 +299,7 @@
     (property "Value" "Conn_01x04_Socket" (at 129.54 89.535 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 128.27 86.995 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (at 128.27 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.27 86.995 0)
