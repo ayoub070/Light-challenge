@@ -6573,7 +6573,7 @@
   (gr_text "GND DIN DOUT +3V3" (at 163.2 131.45) (layer "B.SilkS") (tstamp 3529a780-dddb-4851-8e50-8501d7f89681)
     (effects (font (size 0.75 0.75) (thickness 0.12)) (justify left bottom mirror))
   )
-  (gr_text "GOD SAID AND THERE WAS LIGHT" (at 157.2 120.6) (layer "B.SilkS") (tstamp 5aeb8666-6f72-408c-97dd-1219b1bdd01c)
+  (gr_text "GOD SAID LET THERE BE LIGHT" (at 157.2 120.6) (layer "B.SilkS") (tstamp 5aeb8666-6f72-408c-97dd-1219b1bdd01c)
     (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
   )
   (gr_text "The Lighting Challenge Living labs" (at 118.91 127.12) (layer "F.SilkS") (tstamp 10e65221-f303-4f48-a351-0f7361d3c712)
