@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SP8K32FRATB")(type "Legacy")(uri "${KIPRJMOD}/geintergreerde symbol& footprint/SP8K32FRATB/SP8K32FRATB.lib")(options "")(descr ""))
+)

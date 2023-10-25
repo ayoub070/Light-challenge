@@ -354,6 +354,10 @@
     [
       "e45bfeb5-7d32-4b1e-b5db-04fb02e3e836",
       "Force_sensor"
+    ],
+    [
+      "a8982b6c-f9f4-4ae9-b882-3fbabc855f32",
+      "3V3 LDO"
     ]
   ],
   "text_variables": {}

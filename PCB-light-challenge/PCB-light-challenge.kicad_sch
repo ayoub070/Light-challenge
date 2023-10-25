@@ -110,6 +110,23 @@
     )
   )
 
+  (sheet (at 201.295 122.555) (size 38.735 20.955) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a8982b6c-f9f4-4ae9-b882-3fbabc855f32)
+    (property "Sheetname" "3V3 LDO" (at 201.295 121.8434 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LDO.kicad_sch" (at 201.295 144.0946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "9"))
+      )
+    )
+  )
+
   (sheet (at 38.1 146.05) (size 40.64 22.86) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

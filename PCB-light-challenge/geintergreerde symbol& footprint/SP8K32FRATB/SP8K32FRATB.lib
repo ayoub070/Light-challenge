@@ -1,0 +1,113 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# SP8K32FRATB
+#
+DEF SP8K32FRATB U 0 40 Y N 2 L N
+F0 "U" 250 0 50 H V L BNN
+F1 "SP8K32FRATB" 250 -100 50 H V L BNN
+F2 "SOIC127P600X175-8N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "Rohm" 0 0 50 H I L BNN "MF"
+F5 "\nMosfet Array 2 N-Channel (Dual) 60V 4.5A (Ta) 2W Surface Mount 8-SOP\n" 0 0 50 H I L BNN "Description"
+F6 "SOP-8 Rohm" 0 0 50 H I L BNN "Package"
+F7 "None" 0 0 50 H I L BNN "Price"
+F8 "https://www.snapeda.com/parts/SP8K32FRATB/Rohm/view-part/?ref=eda" 0 0 50 H I L BNN "Check_prices"
+F9 "IPC-7351B" 0 0 50 H I L BNN "STANDARD"
+F10 "001" 0 0 50 H I L BNN "PARTREV"
+F11 "https://www.snapeda.com/parts/SP8K32FRATB/Rohm/view-part/?ref=snap" 0 0 50 H I L BNN "SnapEDA_Link"
+F12 "SP8K32FRATB" 0 0 50 H I L BNN "MP"
+F13 "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2877952&manufacturer=Rohm&part_name=SP8K32FRATB&search_term=sp8k32fratb" 0 0 50 H I L BNN "Purchase-URL"
+F14 "In Stock" 0 0 50 H I L BNN "Availability"
+F15 "ROHM" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 1 0 10 30 30 30 0 N
+P 2 1 0 10 30 0 30 -30 N
+P 2 1 0 10 30 125 30 100 N
+P 2 1 0 10 30 100 30 75 N
+P 2 1 0 6 30 0 100 0 N
+P 2 1 0 6 100 0 100 -100 N
+P 2 1 0 10 30 -75 30 -100 N
+P 2 1 0 10 30 -100 30 -125 N
+P 2 1 0 10 0 100 0 -100 N
+P 2 1 0 6 100 -100 30 -100 N
+P 2 1 0 6 150 100 150 20 N
+P 2 1 0 6 150 20 150 -100 N
+P 2 1 0 6 100 -100 150 -100 N
+P 2 1 0 6 30 100 100 100 N
+P 2 1 0 6 100 100 150 100 N
+P 2 1 0 6 180 30 170 20 N
+P 2 1 0 6 170 20 150 20 N
+P 2 1 0 6 150 20 130 20 N
+P 2 1 0 6 130 20 120 10 N
+C 100 -100 14 1 0 0 N
+C 100 100 14 1 0 0 N
+P 4 1 0 6 150 20 130 -10 170 -10 150 20 f
+P 4 1 0 6 40 0 80 30 80 -30 40 0 f
+P 2 1 0 10 100 -100 100 -200 N
+P 2 1 0 10 100 -200 100 -300 N
+P 2 1 0 10 0 -100 -100 -100 N
+P 2 1 0 10 -100 -100 -200 -100 N
+P 2 1 0 6 -18 -170 -8 -180 N
+P 2 1 0 6 -8 -180 -8 -200 N
+P 2 1 0 6 -8 -200 -8 -220 N
+P 2 1 0 6 -8 -220 3 -230 N
+P 4 1 0 6 -8 -200 23 -220 23 -180 -8 -200 f
+P 4 1 0 6 -5 -200 -35 -180 -35 -220 -5 -200 f
+P 2 1 0 10 25 -200 100 -200 N
+P 2 1 0 10 -38 -200 -100 -200 N
+P 2 1 0 10 -100 -200 -100 -100 N
+C 100 -200 14 1 0 0 N
+C -100 -100 14 1 0 0 N
+P 2 1 0 10 100 100 100 300 N
+X ~ 1 100 -400 100 U 40 40 1 0 P 
+X ~ 2 -300 -100 100 R 40 40 1 0 P 
+X ~ 7 100 400 100 D 40 40 1 0 P 
+P 2 2 0 10 30 30 30 0 N
+P 2 2 0 10 30 0 30 -30 N
+P 2 2 0 10 30 125 30 100 N
+P 2 2 0 10 30 100 30 75 N
+P 2 2 0 6 30 0 100 0 N
+P 2 2 0 6 100 0 100 -100 N
+P 2 2 0 10 30 -75 30 -100 N
+P 2 2 0 10 30 -100 30 -125 N
+P 2 2 0 10 0 100 0 -100 N
+P 2 2 0 6 100 -100 30 -100 N
+P 2 2 0 6 150 100 150 20 N
+P 2 2 0 6 150 20 150 -100 N
+P 2 2 0 6 100 -100 150 -100 N
+P 2 2 0 6 30 100 100 100 N
+P 2 2 0 6 100 100 150 100 N
+P 2 2 0 6 180 30 170 20 N
+P 2 2 0 6 170 20 150 20 N
+P 2 2 0 6 150 20 130 20 N
+P 2 2 0 6 130 20 120 10 N
+C 100 -100 14 2 0 0 N
+C 100 100 14 2 0 0 N
+P 4 2 0 6 150 20 130 -10 170 -10 150 20 f
+P 4 2 0 6 40 0 80 30 80 -30 40 0 f
+P 2 2 0 10 100 -100 100 -200 N
+P 2 2 0 10 100 -200 100 -300 N
+P 2 2 0 10 0 -100 -100 -100 N
+P 2 2 0 10 -100 -100 -200 -100 N
+P 2 2 0 6 -18 -170 -8 -180 N
+P 2 2 0 6 -8 -180 -8 -200 N
+P 2 2 0 6 -8 -200 -8 -220 N
+P 2 2 0 6 -8 -220 3 -230 N
+P 4 2 0 6 -8 -200 23 -220 23 -180 -8 -200 f
+P 4 2 0 6 -5 -200 -35 -180 -35 -220 -5 -200 f
+P 2 2 0 10 25 -200 100 -200 N
+P 2 2 0 10 -38 -200 -100 -200 N
+P 2 2 0 10 -100 -200 -100 -100 N
+C 100 -200 14 2 0 0 N
+C -100 -100 14 2 0 0 N
+P 2 2 0 10 100 100 100 300 N
+X ~ 3 100 -400 100 U 40 40 2 0 P 
+X ~ 4 -300 -100 100 R 40 40 2 0 P 
+X ~ 5 100 400 100 D 40 40 2 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library
