@@ -348,16 +348,12 @@
       "PIR_Sensor"
     ],
     [
-      "402f4479-2d09-4573-9065-1b936cf39822",
-      "Light_sensor"
-    ],
-    [
-      "e45bfeb5-7d32-4b1e-b5db-04fb02e3e836",
-      "Force_sensor"
-    ],
-    [
       "a8982b6c-f9f4-4ae9-b882-3fbabc855f32",
       "3V3 LDO"
+    ],
+    [
+      "60e08cef-d6ff-4122-9aae-654ea68342de",
+      "Shock sens"
     ]
   ],
   "text_variables": {}
