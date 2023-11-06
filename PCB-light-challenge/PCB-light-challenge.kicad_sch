@@ -4,26 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2023-11-06")
+    (rev "V0.1")
+    (company "HHS Living Labs")
+  )
+
   (lib_symbols
   )
 
-
-  (sheet (at 38.1 25.4) (size 38.1 34.29) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 1402e616-5a05-4555-8060-97317c02dff7)
-    (property "Sheetname" "LEDS" (at 38.1 24.6884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "LEDS.kicad_sch" (at 38.1 60.2746 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "PCB-light-challenge"
-        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "6"))
-      )
-    )
-  )
 
   (sheet (at 200.66 76.2) (size 38.1 30.48) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))

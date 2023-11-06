@@ -4,6 +4,12 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2023-11-06")
+    (rev "V0.1")
+    (company "HHS Living Labs")
+  )
+
   (lib_symbols
   )
 
