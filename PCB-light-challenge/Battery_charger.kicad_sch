@@ -375,12 +375,12 @@
     (property "Datasheet" "" (at 128.905 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid c93b0962-9d67-40f9-b580-58b8d022230c))
     (pin "1" (uuid ba61c894-c78e-4247-918c-345ab833e307))
-    (pin "6" (uuid acafd820-3381-4fb1-a6cb-2a74ef2d532f))
-    (pin "5" (uuid 33998a24-dbbf-4dda-8af3-29eb659b7dac))
     (pin "2" (uuid 7dfd44e9-cf2c-4476-98f5-bb604d82b00e))
+    (pin "3" (uuid c93b0962-9d67-40f9-b580-58b8d022230c))
     (pin "4" (uuid 0103c31a-e2db-4828-871b-5d8a35fbf54c))
+    (pin "5" (uuid 33998a24-dbbf-4dda-8af3-29eb659b7dac))
+    (pin "6" (uuid acafd820-3381-4fb1-a6cb-2a74ef2d532f))
     (instances
       (project "PCB-light-challenge"
         (path "/35573e8f-7834-430c-81d2-239f316c7834/1ee2b17a-9b36-4608-9d61-b871128bc979"
