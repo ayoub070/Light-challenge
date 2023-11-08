@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_15993660"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-08-10-05:44:36)
+    (utime 2023-08-10-05:44:36)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "MP008513")
+)
+
+
+(pinAssign "ECS_15993660"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-08-10-05:44:36)
+    (utime 2023-08-10-05:44:36)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15993660")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "MP008513")
+)
+
+
+(part "MP008513"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2023-08-10-05:44:36)
+    (utime 2023-08-10-05:44:36)
+    (packageRef "MP008513")
+    (pinAssignRef "ECS_15993660")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "TB, WIRE TO BRD, R/A, 2WAY, 18AWG")
+    (property "Farnell_Part_Number" "")
+    (property "Farnell_Price/Stock" "")
+    (property "Manufacturer_Name" "Multicomp Pro")
+    (property "Manufacturer_Part_Number" "MP008513")
+    (property "Datasheet_Link" "")
+    (property "compAreaTopHeight" 8.6)
+)
+
+
