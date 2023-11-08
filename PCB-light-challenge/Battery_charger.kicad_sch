@@ -257,7 +257,6 @@
   )
 
 
-
   (wire (pts (xy 137.795 62.23) (xy 143.51 62.23))
     (stroke (width 0) (type default))
     (uuid 06a876ab-f57b-40c2-aea7-a94fb7499bd8)
@@ -301,15 +300,6 @@
   (wire (pts (xy 137.795 66.04) (xy 143.51 66.04))
     (stroke (width 0) (type default))
     (uuid f60de8fb-c1b6-4f2b-bcbc-e63c714a5ad2)
-  )
-
-  (label "GND1" (at 103.505 60.96 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 24098a85-269c-46a1-8e3c-837726d84cca)
-  )
-  (label "5Vin" (at 102.235 57.15 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 28e323dc-e508-458a-aacc-7cfd695402a4)
   )
 
   (global_label "P+" (shape output) (at 143.51 62.23 0) (fields_autoplaced)

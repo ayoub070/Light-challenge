@@ -93,7 +93,6 @@
   )
 
 
-
   (no_connect (at 110.49 66.04) (uuid 27bdde37-db20-485b-bfd4-50f20f24591a))
 
   (wire (pts (xy 80.645 71.12) (xy 85.09 71.12))
@@ -109,10 +108,10 @@
     (uuid f7a359da-65ca-4175-ab7d-dcf50434cda0)
   )
 
-  (global_label "Digital Out Shocksens" (shape output) (at 112.395 71.12 0) (fields_autoplaced)
+  (global_label "GP0" (shape output) (at 112.395 71.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
-    (uuid 67144cb4-6777-4375-8be4-96ed94aed93c)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 136.1165 71.12 0)
+    (uuid 0c9d1081-d07e-46a5-af47-7407fe52af9b)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.0503 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )

@@ -89,7 +89,6 @@
   )
 
 
-
   (wire (pts (xy 161.163 56.642) (xy 161.163 69.342))
     (stroke (width 0) (type default))
     (uuid 21ffe617-afa7-48b5-b6fd-283eb32a11db)
@@ -139,10 +138,10 @@
     (uuid e4620545-ba38-4170-a247-ef7d55bcef08)
   )
 
-  (global_label "OUT DATA" (shape output) (at 81.915 69.85 180) (fields_autoplaced)
+  (global_label "GP1" (shape output) (at 81.915 69.85 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 66c8a14f-fb89-486b-b1be-54bfa25e647a)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 70.2038 69.85 0)
+    (uuid 2d0b589e-d7d9-40d4-9a7a-6af56e721049)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 75.2597 69.85 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -153,10 +152,10 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "OUT DATA2" (shape output) (at 135.128 69.342 180) (fields_autoplaced)
+  (global_label "GP2" (shape output) (at 135.128 69.342 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
-    (uuid e11ec5f9-b354-4c76-ac22-e85b907f2208)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 122.2073 69.342 0)
+    (uuid eae233f3-9c47-48cc-9185-e555ac41761a)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 128.4727 69.342 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
