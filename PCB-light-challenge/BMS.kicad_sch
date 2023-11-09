@@ -884,6 +884,7 @@
     )
   )
 
+
   (junction (at 83.82 74.295) (diameter 0) (color 0 0 0 0)
     (uuid 17aa50f5-6ed0-43c8-b038-88b6fec658c5)
   )
@@ -991,11 +992,29 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "P-" (shape input) (at 144.78 74.295 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid d462b432-1ae6-49cb-9708-c24930674382)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 150.5282 74.295 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+
+  (symbol (lib_id "power:GND") (at 144.78 74.295 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0bafe478-b6cb-4624-b4c1-88e7f2819cb3)
+    (property "Reference" "#PWR020" (at 144.78 80.645 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 144.78 78.4305 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Footprint" "" (at 144.78 74.295 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 144.78 74.295 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e12b5c05-1a23-4d11-a4a2-20eceb63b1f6))
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834/91ce53e5-ea08-4091-9289-d2f38a19ddbc"
+          (reference "#PWR020") (unit 1)
+        )
+      )
     )
   )
 

@@ -1,0 +1,16 @@
+.TMPS_05-105 :1 ;5 Watt AC/DC modules, industrial/household, 85-264 VAC input, Ultra compact size 1"x1", 3000 VAC I/O-isolation, encapsulated, PCB mount
+TMPS05-105
+*STM PS
+*NGS
+*PLB 1="AC(N)" 2="AC(L)" 3="NC" 4="-VOUT" 5="+VOUT"
+*MXP 5
+*DFN TMPS_05-105
+~!Farnell Part Number (-)
+~!Farnell Price/Stock (-)
+~!Manufacturer_Name (Traco Power)
+~!Manufacturer_Part_Number (TMPS 05-105)
+~!Link Datasheet (https://tracopower.com/tmps05-datasheet/)
+~!Height (-)
+~!3D_Model (TMPS_05-105)
+TMPS_05-105
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

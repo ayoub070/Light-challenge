@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TMPS_05-105
+D 5 Watt AC/DC modules, industrial/household, 85-264 VAC input, Ultra compact size 1"x1", 3000 VAC I/O-isolation, encapsulated, PCB mount
+K
+F https://tracopower.com/tmps05-datasheet/
+$ENDCMP
+#
+#End Doc Library

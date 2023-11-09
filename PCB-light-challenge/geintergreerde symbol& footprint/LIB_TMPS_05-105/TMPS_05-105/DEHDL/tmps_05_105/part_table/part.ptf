@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TMPS_05_105'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "FARNELL_PART_NUMBER", "FARNELL_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Traco Power", "TMPS 05-105" (!) = "", "TMPS05-105", "Other", "", "", "5 Watt AC/DC modules, industrial/household, 85-264 VAC input, Ultra compact size 1"x1", 3000 VAC I/O-isolation, encapsulated, PCB mount", "https://tracopower.com/tmps05-datasheet/"
+END_PART
+
+END.

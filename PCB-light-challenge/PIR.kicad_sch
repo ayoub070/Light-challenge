@@ -89,6 +89,7 @@
   )
 
 
+
   (wire (pts (xy 161.163 56.642) (xy 161.163 69.342))
     (stroke (width 0) (type default))
     (uuid 21ffe617-afa7-48b5-b6fd-283eb32a11db)
@@ -176,7 +177,7 @@
     (property "Value" "~" (at 156.083 45.212 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PIRsens:PIR-SENS" (at 156.083 45.212 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 156.083 45.212 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 156.083 45.212 0)
@@ -203,7 +204,7 @@
     (property "Value" "~" (at 102.87 45.72 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PIRsens:PIR-SENS" (at 102.87 45.72 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (at 102.87 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (at 102.87 45.72 0)
