@@ -377,7 +377,7 @@
     (property "Value" "ESD9B3.3ST5G" (at 104.14 69.85 90)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
-    (property "Footprint" "Diode_SMD:D_SOD-323_HandSoldering" (at 100.965 68.58 0)
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 100.965 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF" (at 100.965 68.58 0)
