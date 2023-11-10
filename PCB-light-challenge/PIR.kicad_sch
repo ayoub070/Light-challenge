@@ -89,7 +89,6 @@
   )
 
 
-
   (wire (pts (xy 161.163 56.642) (xy 161.163 69.342))
     (stroke (width 0) (type default))
     (uuid 21ffe617-afa7-48b5-b6fd-283eb32a11db)
