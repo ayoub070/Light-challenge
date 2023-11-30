@@ -3,7 +3,7 @@
 #include <FastLED.h>
 
 // How many leds in your strip?
-#define NUM_LEDS 16
+#define NUM_LEDS 1
 
 
 // For led chips like WS2812, which have a data line, ground, and power, you just
@@ -14,7 +14,7 @@
 #define CLOCK_PIN 13
 const byte PIR_sens1 = 4;
 const byte PIR_sens2 = 8;
-const byte PIR_led  = 5;
+const byte PIR_led  = 1;  //5
 const byte Vibration_sens = 7;
 
 volatile byte state   = LOW;
@@ -44,9 +44,9 @@ void setup() {
 
 void loop() {
  //=================== This is code for the  guidance light==============//
-  /*
+  
   leds[0] = CRGB::Blue;
-  leds[1] = CRGB::Blue;
+  /*leds[1] = CRGB::Blue;
   leds[2] = CRGB::Blue;
   leds[3] = CRGB::Red;
   leds[4] = CRGB::DarkRed;
@@ -60,11 +60,11 @@ void loop() {
   leds[12] = CRGB::MediumPurple;
   leds[13] = CRGB::Purple;
   leds[14] = CRGB::PowderBlue;
-  leds[15] = CRGB::HotPink;
+  leds[15] = CRGB::HotPink;  */
   FastLED.show();
-  */
+  
   //======================================================================//
-
+/*
   if(state==HIGH){  // Als er trilling of vibratie gedecteerd wordt zal er een delay van 5 sec. plaats vinden.
     delay(5000);
     state=LOW;
@@ -124,7 +124,7 @@ void loop() {
   }
  Serial.println(digitalRead(PIR_sens1));
 //=============== Interrupt code for the Vibration sesnor================//
-
+*/
 
 }
 
