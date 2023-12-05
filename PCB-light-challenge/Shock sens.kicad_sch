@@ -12,46 +12,6 @@
   )
 
   (lib_symbols
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "shock:shock_sens" (in_bom yes) (on_board yes)
       (property "Reference" "Shock_sens1" (at 0 -0.3081 0)
         (effects (font (size 1.27 1.27)))
@@ -89,6 +49,7 @@
   )
 
 
+
   (wire (pts (xy 80.645 71.12) (xy 85.09 71.12))
     (stroke (width 0) (type default))
     (uuid c8e26dae-47e5-40e8-b578-e6b1c42a96d4)
@@ -116,29 +77,11 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-
-  (symbol (lib_id "power:GND") (at 80.645 71.12 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 86ff47b3-eb5c-4e93-b8c8-b3f51cbe71cd)
-    (property "Reference" "#PWR04" (at 80.645 77.47 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 80.645 75.2555 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Footprint" "" (at 80.645 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 80.645 71.12 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0f165214-1570-44c2-84ab-ea654f2d31c6))
-    (instances
-      (project "PCB-light-challenge"
-        (path "/35573e8f-7834-430c-81d2-239f316c7834/60e08cef-d6ff-4122-9aae-654ea68342de"
-          (reference "#PWR04") (unit 1)
-        )
-      )
+  (global_label "P-" (shape input) (at 80.645 71.12 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid f08decca-6232-455a-be91-b423f385fe2d)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 74.8968 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
 

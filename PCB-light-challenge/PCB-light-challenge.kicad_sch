@@ -31,6 +31,23 @@
     )
   )
 
+  (sheet (at 109.474 138.43) (size 34.036 25.146) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 1f6a54d7-bb01-4312-8758-614cdc643234)
+    (property "Sheetname" "RGB LEDs" (at 109.474 137.7184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "RGB LEDs.kicad_sch" (at 109.474 164.1606 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "8"))
+      )
+    )
+  )
+
   (sheet (at 121.92 64.77) (size 33.02 49.53) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 2.1,
-          "width": 2.1
+          "drill": 1.8,
+          "height": 3.0,
+          "width": 3.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -172,7 +172,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.25,
+        1.2,
+        2.0
       ],
       "via_dimensions": [
         {
@@ -430,6 +433,40 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "3V3power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.5,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 3.5,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 3.0,
+        "line_style": 0,
+        "microvia_diameter": 4.0,
+        "microvia_drill": 2.0,
+        "name": "ACpower",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 3.5,
+        "via_diameter": 12.0,
+        "via_drill": 6.0,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -437,7 +474,28 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "ACpower",
+        "pattern": "/Battery_charger/GNDAC"
+      },
+      {
+        "netclass": "ACpower",
+        "pattern": "/Battery_charger/Fuse"
+      },
+      {
+        "netclass": "ACpower",
+        "pattern": "/Battery_charger/Fuse_in"
+      },
+      {
+        "netclass": "3V3power",
+        "pattern": "BAT+"
+      },
+      {
+        "netclass": "3V3power",
+        "pattern": "3V3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -504,6 +562,10 @@
     [
       "5679ea21-1e58-482d-afee-07308fc996bf",
       "PIR_Sensor"
+    ],
+    [
+      "1f6a54d7-bb01-4312-8758-614cdc643234",
+      "RGB LEDs"
     ],
     [
       "a8982b6c-f9f4-4ae9-b882-3fbabc855f32",
