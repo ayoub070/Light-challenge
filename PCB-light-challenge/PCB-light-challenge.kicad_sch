@@ -133,6 +133,23 @@
     )
   )
 
+  (sheet (at 43.815 33.02) (size 31.115 24.765) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d6ab0385-4757-4e5e-90a4-43840d94b231)
+    (property "Sheetname" "LDR" (at 43.815 32.3084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "LDR.kicad_sch" (at 43.815 58.3696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "PCB-light-challenge"
+        (path "/35573e8f-7834-430c-81d2-239f316c7834" (page "9"))
+      )
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
   )

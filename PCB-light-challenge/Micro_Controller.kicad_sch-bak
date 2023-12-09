@@ -2146,7 +2146,7 @@
     (property "Value" "Conn_01x02_Socket" (at 28.321 29.5689 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" (at 27.686 33.655 0)
+    (property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" (at 27.686 33.655 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 27.686 33.655 0)
@@ -2293,7 +2293,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 28.575 49.53 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 431686d3-6ac2-4811-bf14-c4b9ca3c3e56)
-    (property "Reference" "P-" (at 26.035 49.53 0)
+    (property "Reference" "P-1" (at 26.035 49.53 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Socket" (at 29.21 47.9839 0)
@@ -2309,7 +2309,7 @@
     (instances
       (project "PCB-light-challenge"
         (path "/35573e8f-7834-430c-81d2-239f316c7834/2e4391fc-91c5-40c6-9f1e-d883ea305622"
-          (reference "P-") (unit 1)
+          (reference "P-1") (unit 1)
         )
       )
     )
@@ -2638,7 +2638,7 @@
   (symbol (lib_id "Connector:Conn_01x01_Socket") (at 28.575 52.07 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c555f339-a8d3-4664-8046-632b8b71ddf5)
-    (property "Reference" "P-" (at 26.035 52.07 0)
+    (property "Reference" "P-2" (at 26.035 52.07 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Conn_01x01_Socket" (at 29.21 50.5239 0)
@@ -2654,7 +2654,7 @@
     (instances
       (project "PCB-light-challenge"
         (path "/35573e8f-7834-430c-81d2-239f316c7834/2e4391fc-91c5-40c6-9f1e-d883ea305622"
-          (reference "P-") (unit 1)
+          (reference "P-2") (unit 1)
         )
       )
     )

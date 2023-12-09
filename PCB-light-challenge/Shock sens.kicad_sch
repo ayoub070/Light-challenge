@@ -13,7 +13,7 @@
 
   (lib_symbols
     (symbol "shock:shock_sens" (in_bom yes) (on_board yes)
-      (property "Reference" "Shock_sens1" (at 0 -0.3081 0)
+      (property "Reference" "Shock" (at 0 -0.3081 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Value" "~" (at 0 0 0)
@@ -63,10 +63,10 @@
     (uuid f7a359da-65ca-4175-ab7d-dcf50434cda0)
   )
 
-  (global_label "GP0" (shape output) (at 112.395 71.12 0) (fields_autoplaced)
+  (global_label "GP18" (shape output) (at 112.395 71.12 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0c9d1081-d07e-46a5-af47-7407fe52af9b)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 119.0503 71.12 0)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 120.2598 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -88,7 +88,7 @@
   (symbol (lib_id "shock:shock_sens") (at 97.79 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b935ed9f-2ecb-4782-936c-90aa16f002e9)
-    (property "Reference" "Shock_sens1" (at 97.79 63.8081 0)
+    (property "Reference" "Shock1" (at 97.79 63.8081 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "~" (at 97.79 63.5 0)
@@ -106,7 +106,7 @@
     (instances
       (project "PCB-light-challenge"
         (path "/35573e8f-7834-430c-81d2-239f316c7834/60e08cef-d6ff-4122-9aae-654ea68342de"
-          (reference "Shock_sens1") (unit 1)
+          (reference "Shock1") (unit 1)
         )
       )
     )
