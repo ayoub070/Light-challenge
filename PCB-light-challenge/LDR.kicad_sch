@@ -162,13 +162,13 @@
   (symbol (lib_id "Connector:Conn_01x04_Socket") (at 133.985 85.725 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31d05e54-555e-4e85-ad63-7220fa2bbb9e)
-    (property "Reference" "J2" (at 134.6962 86.3513 0)
+    (property "Reference" "LDR1" (at 134.6962 86.3513 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "Conn_01x04_Socket" (at 134.6962 88.2723 0)
+    (property "Value" "LDR" (at 134.6962 88.2723 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" (at 133.985 85.725 0)
+    (property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical" (at 133.985 85.725 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 133.985 85.725 0)
@@ -181,7 +181,7 @@
     (instances
       (project "PCB-light-challenge"
         (path "/35573e8f-7834-430c-81d2-239f316c7834/d6ab0385-4757-4e5e-90a4-43840d94b231"
-          (reference "J2") (unit 1)
+          (reference "LDR1") (unit 1)
         )
       )
     )
