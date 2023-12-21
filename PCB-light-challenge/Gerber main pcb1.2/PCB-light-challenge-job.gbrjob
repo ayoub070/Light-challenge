@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(7.0.0)"
     },
-    "CreationDate": "2023-11-14T13:40:17+01:00"
+    "CreationDate": "2023-12-21T13:58:15+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -17,7 +17,7 @@
       "X": 80.01,
       "Y": 79.1
     },
-    "LayerNumber": 4,
+    "LayerNumber": 2,
     "BoardThickness": 1.6,
     "Finish": "None"
   },
@@ -30,14 +30,6 @@
       "MinLineWidth": 0.25,
       "TrackToRegion": 0.5,
       "RegionToRegion": 0.5
-    },
-    {
-      "Layers": "Inner",
-      "PadToPad": 0.2,
-      "PadToTrack": 0.2,
-      "TrackToTrack": 0.2,
-      "TrackToRegion": 0.5,
-      "RegionToRegion": 0.5
     }
   ],
   "FilesAttributes": [
@@ -47,18 +39,8 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "PCB-light-challenge-GND1.gbr",
-      "FileFunction": "Copper,L2,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "PCB-light-challenge-Signal&Power2.gbr",
-      "FileFunction": "Copper,L3,Inr",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "PCB-light-challenge-GND2.gbr",
-      "FileFunction": "Copper,L4,Bot",
+      "Path": "PCB-light-challenge-P-.gbr",
+      "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -118,39 +100,15 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1,
+      "Thickness": 1.51,
       "Material": "FR4",
-      "Name": "Signal&Power1/GND1",
-      "Notes": "Type: dielectric layer 1 (from Signal&Power1 to GND1)"
+      "Name": "Signal&Power1/P-",
+      "Notes": "Type: dielectric layer 1 (from Signal&Power1 to P-)"
     },
     {
       "Type": "Copper",
       "Thickness": 0.035,
-      "Name": "GND1"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 1.24,
-      "Material": "FR4",
-      "Name": "GND1/Signal&Power2",
-      "Notes": "Type: dielectric layer 2 (from GND1 to Signal&Power2)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "Signal&Power2"
-    },
-    {
-      "Type": "Dielectric",
-      "Thickness": 0.1,
-      "Material": "FR4",
-      "Name": "Signal&Power2/GND2",
-      "Notes": "Type: dielectric layer 3 (from Signal&Power2 to GND2)"
-    },
-    {
-      "Type": "Copper",
-      "Thickness": 0.035,
-      "Name": "GND2"
+      "Name": "P-"
     },
     {
       "Type": "SolderMask",
