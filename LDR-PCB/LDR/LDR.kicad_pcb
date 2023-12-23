@@ -71,7 +71,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "../gerber LDR pcb/")
+      (outputdirectory "../Gerber LDR pcb1.1/")
     )
   )
 
@@ -509,7 +509,7 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a3daa83b-b86c-43c9-aa56-5f269aec5cba))
     (fp_line (start 10 2.2) (end 10 -1.6)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp aac105c7-46bc-4be1-b651-1eca2fcac642))
-    (pad "1" thru_hole roundrect (at 0 0 90) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.147059)
+    (pad "1" thru_hole roundrect (at 0 0 90) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.1470588235)
       (net 3 "+3V3") (pinfunction "Pin_1") (pintype "passive") (tstamp 4ed723ce-9139-43be-9e59-ea75cec12f4d))
     (pad "2" thru_hole oval (at 2.5 0 90) (size 1.7 1.95) (drill 0.95) (layers "*.Cu" "*.Mask")
       (net 5 "GND") (pinfunction "Pin_2") (pintype "passive") (tstamp c3ab7e74-6736-48db-9017-6f364722fa81))
